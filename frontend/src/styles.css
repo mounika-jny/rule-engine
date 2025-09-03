@@ -1,0 +1,14 @@
+:root{ --bg:#0b1020; --card:#111830; --ink:#dbe4ff; --muted:#8fa1c7; --accent:#6ea8fe; }
+*{ box-sizing:border-box; }
+body{ margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto; background:var(--bg); color:var(--ink); }
+.container{ max-width:1100px; margin:32px auto; padding:0 16px; }
+.grid{ display:grid; gap:16px; }
+.card{ background:var(--card); border-radius:16px; padding:16px; box-shadow:0 10px 30px rgba(0,0,0,.25); }
+.row{ display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+input, select, textarea, button{ background:#0e1428; color:var(--ink); border:1px solid #26325a; border-radius:10px; padding:10px 12px; }
+button.primary{ background:var(--accent); color:#051022; border:none; font-weight:600; }
+small.muted{ color:var(--muted); }
+pre{ background:#0a0f21; padding:12px; border-radius:12px; overflow:auto; }
+.table{ width:100%; border-collapse:collapse; }
+.table th,.table td{ padding:8px 10px; border-bottom:1px solid #1e2747; }
+.badge{ padding:4px 8px; border-radius:8px; background:#1d274a; }
